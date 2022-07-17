@@ -44,22 +44,28 @@
     "price_postapoc": 500,
     },
     {
-    "id": "magical_research_notes_0",
+    "id": "magical_research_paper_0",
     "copy-from": "research_paper_prototye",
     "name": { "str": "paper on magical musing", "str_pl": "papers on magical musing" },
     "description": "This paper contains notes and drawings with possibly naive musingings about magic, the world beyond, and one's relationship to the ethereal."
     },
     {
-    "id": "magical_research_notes_1",
+    "id": "magical_research_paper_1",
     "copy-from": "research_paper_prototye",
     "name": { "str": "paper on magical ideas", "str_pl": "papers on magical ideas" },
     "description": "A thoughtful, albeit ungrounded, essay on the possibility of magic."
     },
     {
-    "id": "magical_research_notes_2",
+    "id": "magical_research_paper_2",
     "copy-from": "research_paper_prototye",
     "name": { "str": "paper on magical theory", "str_pl": "papers on magical theory" },
     "description": "A cohesive theory that scratches at the nature of magic on a superficial level."
+    },
+    {
+    "id": "magical_research_paper_3",
+    "copy-from": "research_paper_prototye",
+    "name": { "str": "paper on magical application (basic)", "str_pl": "papers on magical application (basic)" },
+    "description": "Theories and diagrams explore possible, specific applications of magic on a practical level."
     },
     {
     "id": "magical_research_volume_2",
@@ -94,5 +100,18 @@
     "description": "Densely written notes on the nature of magic and specifics on how one might begin to interact with it. Using these notes, perhaps one can begin their journey into magic.",
     "price": 500,
     "use_action": { "type": "learn_spell", "spells": [ "sense_magic_0" ] }
+    },
+    {
+    "id": "light_and_dark_magic_research_scroll",
+    "copy-from": "magic_scroll_prototype",
+    "symbol": "I",
+    "type": "BOOK",
+    "category": "manuals",
+    "name": { "str": "reasearch project outline on light and dark", "str_pl": "reasearch project outlines on light and dark" },
+    "//": "1 classless spell",
+    "description": "This research spell allows one to pursue the understanding of manipulating light and dark using magic.",
+    "price": 500,
+    "use_action": { "type": "learn_spell", "spells": [ "research_light_dark_spell" ] }
     }
+
 ]
