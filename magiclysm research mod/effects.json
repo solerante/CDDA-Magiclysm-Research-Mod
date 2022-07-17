@@ -1,0 +1,12 @@
+[
+  {
+    "type": "effect_type",
+    "id": "magical_musings",
+    "name": [ "Magical Musings" ],
+    "desc": [ "You are tuned to the investigation of magic." ],
+    "apply_message": "You pay attention to magical causes.",
+    "remove_message": "You turn back to mundane matters.",
+    "rating": "good",
+    "base_mods": { "int_mod": [ 1 ] }
+  }
+]

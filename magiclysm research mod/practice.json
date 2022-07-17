@@ -1,0 +1,30 @@
+[
+	{
+    "id": "prac_magic_musings_0",
+    "type": "practice",
+    "activity_level": "NO_EXERCISE",
+    "category": "CC_PRACTICE",
+    "subcategory": "CSC_PRACTICE_SCIENCE",
+    "name": "esoteric musings",
+    "description": "Concentrate on a strange sensation. The sensation evolves as your mind focuses and plays with esoteric constructs.",
+    "skill_used": "spellcraft",
+    "time": "6 h",
+    "autolearn": [ [ "spellcraft", 0 ] ],
+    "practice_data": { "min_difficulty": 0, "max_difficulty": 1, "skill_limit": 1 },
+    "qualities": [ { "id": "MAGICAL_MUSINGS", "level": 1 } ]
+	}
+	{
+    "id": "prac_magic_musings_0",
+    "type": "practice",
+    "activity_level": "NO_EXERCISE",
+    "category": "CC_PRACTICE",
+    "subcategory": "CSC_PRACTICE_SCIENCE",
+    "name": "esoteric musings",
+    "description": "Concentrate on a strange sensation. The sensation evolves as your mind focuses and plays with esoteric constructs.",
+    "skill_used": "spellcraft",
+    "time": "6 h",
+    "autolearn": [ [ "spellcraft", 0 ] ],
+    "practice_data": { "min_difficulty": 0, "max_difficulty": 1, "skill_limit": 1 },
+    "qualities": [ { "id": "MAGICAL_MUSINGS", "level": 1 } ]
+	}
+]

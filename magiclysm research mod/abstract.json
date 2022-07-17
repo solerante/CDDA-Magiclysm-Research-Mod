@@ -1,0 +1,35 @@
+[
+  {
+    "abstract": "paper_research_tpl",
+    "copy-from": "paper",
+    "type": "BOOK",
+    "name": { "str": "research paper" },
+    "description": "A research paper.",
+    "price": 1,
+    "price_postapoc": 10,
+    "bashing": 1,
+    "flags": [  ],
+    "time": "15 m",
+    "chapters": 1,
+    "intelligence": 5,
+    "fun": -1
+  },
+  {
+    "abstract": "book_research_soft_tpl",
+    "type": "BOOK",
+    "name": { "str": "research volume" },
+    "description": "A series of research papers.",
+    "weight": "60 g",
+    "volume": "250 ml",
+    "longest_side": "18 cm",
+    "price": 10,
+    "price_postapoc": 150,
+    "material": [ "paper" ],
+    "bashing": 1,
+    "flags": [  ],
+    "time": "15 m",
+    "chapters": 2,
+    "intelligence": 5,
+    "copy-from": "book_fict_tpl"
+  },
+]

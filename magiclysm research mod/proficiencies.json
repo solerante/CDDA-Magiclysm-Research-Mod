@@ -1,0 +1,34 @@
+[
+  {
+    "type": "proficiency",
+    "id": "prof_magical_musing",
+    "name": { "str": "Magical Musing" },
+    "description": "Exploring possibilities beyond.",
+    "can_learn": true,
+    "default_time_multiplier": 5,
+    "default_fail_multiplier": 2,
+    "time_to_learn": "24 h"
+  },
+  {
+    "type": "proficiency",
+    "id": "prof_magical_research",
+    "name": { "str": "Magical Research" },
+    "description": "Researching the nature of what lies beyond.",
+    "can_learn": true,
+    "default_time_multiplier": 10,
+    "default_fail_multiplier": 5,
+    "time_to_learn": "96 h",
+    "required_proficiencies": [ "prof_metaphysics_research" ]
+  },
+  {
+    "type": "proficiency",
+    "id": "prof_magical_theory",
+    "name": { "str": "Magical Theory" },
+    "description": "Contemplating the nature of magic, its source, and its application.",
+    "can_learn": true,
+    "default_time_multiplier": 10,
+    "default_fail_multiplier": 20,
+    "time_to_learn": "364 h",
+    "required_proficiencies": [ "prof_magical_research" ]
+  }
+]

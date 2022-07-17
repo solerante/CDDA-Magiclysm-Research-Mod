@@ -1,0 +1,98 @@
+[   
+    {
+    "type": "GENERIC",
+    "id": "research_paper_prototye",
+    "copy-from": "paper_research_tpl",
+    "color": "light_gray",
+    "name": { "str": "research paper prototype" },
+    "description": "YOU SHOULD NOT SEE THIS. ITEM PROTOTYPE"
+    },
+    {
+    "type": "GENERIC",
+    "id": "research_volume_prototye",
+    "copy-from": "book_research_soft_tpl",
+    "color": "light_gray",
+    "name": { "str": "research paper prototype" },
+    "description": "YOU SHOULD NOT SEE THIS. ITEM PROTOTYPE",
+    },
+    {
+    "type": "BOOK", 
+    "id": "sense_magic_scroll_prototype",
+    "category": "manuals",
+    "name": { "str": "Note on Magical Properties", "str_pl": "Notes on Magical Properties" },
+    "symbol": "I",
+    "//": "1 classless spell",
+    "description": "YOU SHOULD NOT SEE THIS. Densely scrawled notes on the nature of magic.",
+    "price": 300,
+    "volume": "150 ml"
+    },
+    {
+    "type": "BOOK", 
+    "id": "magic_scroll_prototype",
+    "copy-from": "book_research_soft_tpl",
+    "symbol": "I",
+    "weight": "20 g",
+    "volume": "150 ml",
+    "longest_side": "18 cm",
+    "material": [ "paper" ],
+    "bashing": 1,
+    "category": "manuals",
+    "name": { "str": "Note on Magical Properties", "str_pl": "Notes on Magical Properties" },
+    "//": "1 classless spell",
+    "description": "YOU SHOULD NOT SEE THIS. Densely scrawled notes on the nature of magic. Using these notes, perhaps one can begin their journey into magic.",
+    "price": 100,
+    "price_postapoc": 500,
+    },
+    {
+    "id": "magical_research_notes_0",
+    "copy-from": "research_paper_prototye",
+    "name": { "str": "paper on magical musing", "str_pl": "papers on magical musing" },
+    "description": "This paper contains notes and drawings with possibly naive musingings about magic, the world beyond, and one's relationship to the ethereal."
+    },
+    {
+    "id": "magical_research_notes_1",
+    "copy-from": "research_paper_prototye",
+    "name": { "str": "paper on magical ideas", "str_pl": "papers on magical ideas" },
+    "description": "A thoughtful, albeit ungrounded, essay on the possibility of magic."
+    },
+    {
+    "id": "magical_research_notes_2",
+    "copy-from": "research_paper_prototye",
+    "name": { "str": "paper on magical theory", "str_pl": "papers on magical theory" },
+    "description": "A cohesive theory that scratches at the nature of magic on a superficial level."
+    },
+    {
+    "id": "magical_research_volume_2",
+    "copy-from": "research_volume_prototye",
+    "name": { "str": "volume on magical theory research", "str_pl": "volumes on magical theory research" },
+    "description": "A systemic approach towards uncovering the nature of magic, bound in a small volume.",
+    "weight": "60 g",
+    "volume": "250 ml",
+    "time": "15 m",
+    "chapters": 3,
+    "intelligence": 6
+    },
+    {
+    "id": "magical_research_volume_2_application",
+    "copy-from": "research_volume_prototye",
+    "name": { "str": "volume on magical application theory", "str_pl": "volumes on magical application theory" },
+    "description": ".",
+    "weight": "80 g",
+    "volume": "260 ml",
+    "time": "20 m",
+    "chapters": 4,
+    "intelligence": 6
+    },
+    {
+    "id": "sense_magic_scroll",
+    "copy-from": "magic_scroll_prototype",
+    "symbol": "I",
+    "type": "BOOK",
+    "category": "manuals",
+    "name": { "str": "reasearch conclusion on sensing magical energy", "str_pl": "reasearch conclusions on sensing magical energy" },
+    "//": "1 classless spell",
+    "description": "Densely written notes on the nature of magic and specifics on how one might begin to interact with it. Using these notes, perhaps one can begin their journey into magic.",
+    "price": 500,
+    "use_action": { "type": "learn_spell", "spells": [ "sense_magic_0" ] }
+    }
+]

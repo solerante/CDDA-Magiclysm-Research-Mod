@@ -1,0 +1,12 @@
+[
+  {
+    "type": "recipe_category",
+    "id": "CC_RESEARCH",
+    "recipe_subcategories": [
+      "CSC_ALL",
+      "CSC_RESEARCH_PAPERS",
+      "CSC_RESEARCH_VOLUMES",
+      "CSC_RESEARCH_CONCLUSIONS"
+    ]
+  }
+]
