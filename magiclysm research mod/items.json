@@ -13,7 +13,7 @@
     "copy-from": "book_research_soft_tpl",
     "color": "light_gray",
     "name": { "str": "research paper prototype" },
-    "description": "YOU SHOULD NOT SEE THIS. ITEM PROTOTYPE",
+    "description": "YOU SHOULD NOT SEE THIS. ITEM PROTOTYPE"
     },
     {
     "type": "BOOK", 
@@ -24,10 +24,11 @@
     "//": "1 classless spell",
     "description": "YOU SHOULD NOT SEE THIS. Densely scrawled notes on the nature of magic.",
     "price": 300,
+    "weight": "20 g",
     "volume": "150 ml"
     },
     {
-    "type": "BOOK", 
+    "type": "GENERIC",
     "id": "magic_scroll_prototype",
     "copy-from": "book_research_soft_tpl",
     "symbol": "I",
@@ -41,33 +42,31 @@
     "//": "1 classless spell",
     "description": "YOU SHOULD NOT SEE THIS. Densely scrawled notes on the nature of magic. Using these notes, perhaps one can begin their journey into magic.",
     "price": 100,
-    "price_postapoc": 500,
+    "price_postapoc": 500
     },
     {
+    "type": "GENERIC",
     "id": "magical_research_paper_0",
     "copy-from": "research_paper_prototye",
     "name": { "str": "paper on magical musing", "str_pl": "papers on magical musing" },
     "description": "This paper contains notes and drawings with possibly naive musingings about magic, the world beyond, and one's relationship to the ethereal."
     },
     {
+    "type": "GENERIC",
     "id": "magical_research_paper_1",
     "copy-from": "research_paper_prototye",
     "name": { "str": "paper on magical ideas", "str_pl": "papers on magical ideas" },
     "description": "A thoughtful, albeit ungrounded, essay on the possibility of magic."
     },
     {
+    "type": "GENERIC",
     "id": "magical_research_paper_2",
     "copy-from": "research_paper_prototye",
     "name": { "str": "paper on magical theory", "str_pl": "papers on magical theory" },
     "description": "A cohesive theory that scratches at the nature of magic on a superficial level."
     },
     {
-    "id": "magical_research_paper_3",
-    "copy-from": "research_paper_prototye",
-    "name": { "str": "paper on magical application (basic)", "str_pl": "papers on magical application (basic)" },
-    "description": "Theories and diagrams explore possible, specific applications of magic on a practical level."
-    },
-    {
+    "type": "BOOK",
     "id": "magical_research_volume_2",
     "copy-from": "research_volume_prototye",
     "name": { "str": "volume on magical theory research", "str_pl": "volumes on magical theory research" },
@@ -79,6 +78,7 @@
     "intelligence": 6
     },
     {
+    "type": "BOOK",
     "id": "magical_research_volume_2_application",
     "copy-from": "research_volume_prototye",
     "name": { "str": "volume on magical application theory", "str_pl": "volumes on magical application theory" },
@@ -90,28 +90,15 @@
     "intelligence": 6
     },
     {
+    "type": "GENERIC",
     "id": "sense_magic_scroll",
     "copy-from": "magic_scroll_prototype",
     "symbol": "I",
-    "type": "BOOK",
     "category": "manuals",
     "name": { "str": "reasearch conclusion on sensing magical energy", "str_pl": "reasearch conclusions on sensing magical energy" },
     "//": "1 classless spell",
     "description": "Densely written notes on the nature of magic and specifics on how one might begin to interact with it. Using these notes, perhaps one can begin their journey into magic.",
     "price": 500,
     "use_action": { "type": "learn_spell", "spells": [ "sense_magic_0" ] }
-    },
-    {
-    "id": "light_and_dark_magic_research_scroll",
-    "copy-from": "magic_scroll_prototype",
-    "symbol": "I",
-    "type": "BOOK",
-    "category": "manuals",
-    "name": { "str": "reasearch project outline on light and dark", "str_pl": "reasearch project outlines on light and dark" },
-    "//": "1 classless spell",
-    "description": "This research spell allows one to pursue the understanding of manipulating light and dark using magic.",
-    "price": 500,
-    "use_action": { "type": "learn_spell", "spells": [ "research_light_dark_spell" ] }
     }
-
 ]

@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "magiclysm_research",
+    "name": "Magiclysm Research",
+    "authors": [ "Solerante" ],
+    "maintainers": [ "Solerante" ],
+    "description": "Research and learn magic from nothing.  Creates a path for learning magiclysm spells without spellbooks and scrolls. Made for a 'magical innawood' experience.",
+    "category": "content",
+    "dependencies": [ "dda", "innawood", "magiclysm" ],
+    "obsolete": false
+  }
+]

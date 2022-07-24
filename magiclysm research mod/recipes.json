@@ -8,10 +8,10 @@
     "difficulty": 1,
     "time": "2h",
     "autolearn": true,
-    "using": [ [ "writing_standard" ] ],
+    "using": [ [ "writing_standard", 1 ] ],
     "components": [ [ [ "paper", 1 ] ] ],
     "proficiencies": [
-      { "proficiency": "prof_magical_musing", "required": false },
+      { "proficiency": "prof_magical_musing", "required": false }
     ]
   },
   {
@@ -24,7 +24,7 @@
     "time": "4h",
     "autolearn": false,
     "book_learn": [ [ "magical_research_paper_0", 1 ] ],
-    "using": [ [ "writing_standard" ] ],
+    "using": [ [ "writing_standard", 1 ] ],
     "components": [ [ [ "paper", 1 ] ] ],
     "proficiencies": [
       { "proficiency": "prof_magical_musing", "required": true },
@@ -41,7 +41,7 @@
     "time": "5h",
     "autolearn": false,
     "book_learn": [ [ "magical_research_paper_1", 1 ] ],
-    "using": [ [ "writing_standard" ] ],
+    "using": [ [ "writing_standard", 1 ] ],
     "components": [ [ [ "paper", 1 ] ] ],
     "proficiencies": [
       { "proficiency": "prof_magical_musing", "required": true },
@@ -59,7 +59,7 @@
     "time": "10h",
     "autolearn": false,
     "book_learn": [ [ "magical_research_paper_2", 2 ] ],
-    "using": [ [ "writing_standard" ] ],
+    "using": [ [ "writing_standard", 1 ] ],
     "components": [ [ [ "paper", 10 ], [ "magical_research_paper_2", 5 ] ] ],
     "proficiencies": [
       { "proficiency": "prof_magical_research", "required": true },
@@ -76,8 +76,9 @@
     "time": "10h",
     "autolearn": false,
     "book_learn": [ [ "magical_research_volume_2", 2 ] ],
-    "using": [ [ "writing_standard" ] ],
-    "components": [ [ [ "paper", 30 ], [ "magical_research_volume_2", -1 ] ] ],
+    "using": [ [ "writing_standard", 1 ] ],
+    "tools": [ [ [ "magical_research_volume_2", -1 ] ] ],
+    "components": [ [ [ "paper", 30 ] ] ],
     "proficiencies": [
       { "proficiency": "prof_magical_research", "required": true },
       { "proficiency": "prof_magical_theory", "required": true }
@@ -93,52 +94,11 @@
     "time": "16h",
     "autolearn": false,
     "book_learn": [ [ "magical_research_volume_2_application", 2 ] ],
-    "using": [ [ "writing_standard" ] ],
-    "components": [ [ [ "paper", 10 ], [ "magical_research_volume_2", -1 ] ] ],
+    "using": [ [ "writing_standard", 1 ] ],
+    "tools": [ [ [ "magical_research_volume_2", -1 ] ] ],
+    "components": [ [ [ "paper", 10 ] ] ],
     "proficiencies": [
       { "proficiency": "prof_magical_theory", "required": true }
     ]
-  },
-  {
-    "type": "recipe",
-    "activity_level": "NO_EXERCISE",
-    "result": "light_and_dark_magic_research_scroll",
-    "category": "CC_RESEARCH",
-    "subcategory": "CSC_RESEARCH_CONCLUSIONS",
-    "difficulty": 7,
-    "time": "16h",
-    "autolearn": false,
-    "book_learn": [ [ "magical_research_volume_2_application", 2 ] ],
-    "using": [ [ "writing_standard" ] ],
-    "components": [ [ [ "paper", 10 ], [ "magical_research_paper_3", -1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_magical_theory", "required": true }
-    ]
-  },
-  {
-    "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
-    "result": "magical_research_paper_0",
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_OTHER",
-    "skill_used": "fabrication",
-    "skills_required": [ "fabrication", 1 ],
-    "difficulty": 1,
-    "time": "2h",
-    "autolearn": true,
-    "using": [ [ "research_paper_standard" ] ],
-    "qualities": [ { "id": "CHISEL", "level": 1 } ],
-    "proficiencies": [
-      { "proficiency": "prof_magical_theory", "required": false, "time_multiplier": 10, "fail_multiplier": 2 },
-    ],
-    "components": [ [ [ "rock", 1 ] ] ]
-  },
-  {
-    "type": "uncraft",
-    "result": "magical_focus_0_stone",
-    "activity_level": "NO_EXERCISE",
-    "time": "40 s",
-    "qualities": [ { "id": "HAMMER", "level": 1 } ],
-    "components": [ [ [ "paper", 1 ] ] ]
   }
 ]

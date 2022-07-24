@@ -12,7 +12,7 @@
     "autolearn": [ [ "spellcraft", 0 ] ],
     "practice_data": { "min_difficulty": 0, "max_difficulty": 1, "skill_limit": 1 },
     "qualities": [ { "id": "MAGICAL_MUSINGS", "level": 1 } ]
-	}
+	},
 	{
     "id": "prac_magic_musings_0",
     "type": "practice",

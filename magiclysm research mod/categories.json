@@ -8,5 +8,11 @@
       "CSC_RESEARCH_VOLUMES",
       "CSC_RESEARCH_CONCLUSIONS"
     ]
+  },
+  {
+    "type": "proficiency_category",
+    "id": "prof_magic_research",
+    "name": "Magic Research",
+    "description": "Proficiencies that help researching new magic."
   }
 ]
