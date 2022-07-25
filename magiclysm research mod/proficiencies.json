@@ -6,8 +6,8 @@
     "category": "prof_magic_research",
     "description": "Exploring possibilities beyond.",
     "can_learn": true,
-    "default_time_multiplier": 5,
-    "default_fail_multiplier": 2,
+    "default_time_multiplier": 3,
+    "default_fail_multiplier": 1,
     "time_to_learn": "24 h"
   },
   {
@@ -17,10 +17,9 @@
     "category": "prof_magic_research",
     "description": "Researching the nature of what lies beyond.",
     "can_learn": true,
-    "default_time_multiplier": 10,
-    "default_fail_multiplier": 5,
-    "time_to_learn": "96 h",
-    "required_proficiencies": [ "prof_metaphysics_research" ]
+    "default_time_multiplier": 5,
+    "default_fail_multiplier": 2,
+    "time_to_learn": "96 h"
   },
   {
     "type": "proficiency",
@@ -30,8 +29,7 @@
     "description": "Contemplating the nature of magic, its source, and its application.",
     "can_learn": true,
     "default_time_multiplier": 10,
-    "default_fail_multiplier": 20,
-    "time_to_learn": "364 h",
-    "required_proficiencies": [ "prof_magical_research" ]
+    "default_fail_multiplier": 5,
+    "time_to_learn": "300 h"
   }
 ]

@@ -34,7 +34,7 @@
     "duration_increment": 50,
     "effect": "attack",
     "effect_str": "magical_musings",
-    "learn_spells": { "sense_magic_1": 2, "sense_magic_2": 5 ,"sense_magic_3": 10}
+    "learn_spells": { "sense_magic_1": 2, "sense_magic_2": 9 ,"sense_magic_3": 10}
   },
   {
     "id": "sense_magic_1",
